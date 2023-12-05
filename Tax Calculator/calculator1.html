@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Indian Income Tax Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calc.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="calculator">
+        <h2> <center>Salary Calculator</center> </h2>
+        <label for="gender">Gender:</label>
+        <select id="gender">
+            <option value="men">Men</option>
+            <option value="women">Women</option>
+        </select>
+        <br><br>
+        <label for="salary">Salary (in INR):</label>
+        <input type="number" id="salary" placeholder="Enter your annual salary">
+        <br><br>
+        <label for="da">Dearness Allowance (%) :</label>
+        <input type="number" id="da" placeholder="Enter DA percentage">
+        <br><br>
+        <label for="hra">House Rent Allowance (%) :</label>
+        <input type="number" id="hra" placeholder="Enter HRA percentage">
+        <br><br>
+        <label for="trafficAllowance">Traffic Allowance (%) :</label>
+        <input type="number" id="trafficAllowance" placeholder="Enter Traffic Allowance percentage">
+        <br><br>
+        <button id="calculateButton">Calculate Tax</button>
+        <br><br>
+        <div id="result">
+            <h3><center>Income Tax Calculator</center></h3>
+            <p>Total Income: <span id="totalIncome"></span></p>
+            <p>Income Tax Payable: <span id="incomeTax"></span></p>
+            <p>Income after tax deduction: <span id="aftertaxincome"></span></p>
+        </div>
+    </div>
+
+</body>
+</html>
