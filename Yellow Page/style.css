@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color:  #FEF9E7  ;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  background-color: #F7DC6F;
+}
+
+section {
+  margin-top: 20px;
+}
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 80%;
+}
+
+article {
+  border: 5px solid #7D6608;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: black;
+  
+}
+
+.info{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+}
+
+p {
+  color: #212F3C;
+}
